@@ -28,3 +28,18 @@ def test_completion_percentage():                    # normal behavior
 
 def test_completion_percentage_empty_list():         # edge case
     assert completion_percentage([]) == 0.0
+
+
+def test_complete_missing_task_raises():             # error case
+    with pytest.raises(ValueError):
+        complete_task(make_tasks(), "Ghost task")
+
+
+def test_filter_with_invalid_status_raises():        # invalid input
+    with pytest.raises(ValueError):
+        filter_by_status(make_tasks(), "yes")
+
+
+def test_complete_already_done_task_raises():        # edge case (requested by reviewer)
+    with pytest.raises(ValueError):
+        complete_task(make_tasks(), "Buy milk")
