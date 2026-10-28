@@ -5,7 +5,7 @@ Theme: To-Do List
 | Name | GitHub | Feature |
 |---|---|---|
 | Kenza | heretosee134 | Feature A: add/remove tasks |
-| Person B | elisamyiman8-hub | Feature B: complete/filter/stats |
+| Iman | elisamyiman8-hub | Feature B: complete/filter/stats |
 
 Project status: Development in progress.
 
