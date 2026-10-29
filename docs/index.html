@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>To-Do List Project</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 750px; margin: 40px auto; padding: 0 20px; line-height: 1.6; color: #222; }
+    h1 { color: #2c5282; }
+    code, pre { background: #f2f2f2; padding: 2px 6px; border-radius: 4px; }
+    pre { padding: 12px; }
+    table { border-collapse: collapse; }
+    td, th { border: 1px solid #ccc; padding: 6px 12px; }
+  </style>
+</head>
+<body>
+  <h1>To-Do List Project</h1>
+  <p><strong>Theme:</strong> To-Do List</p>
+
+  <h2>Team</h2>
+  <table>
+    <tr><th>Name</th><th>GitHub</th><th>Feature</th></tr>
+    <tr><td>Kenza</td><td>heretosee134</td><td>Feature A: add and remove tasks</td></tr>
+    <tr><td>Iman</td><td>elisamyiman8-hub</td><td>Feature B: complete, filter and stats</td></tr>
+  </table>
+
+  <h2>Implemented features</h2>
+  <ul>
+    <li><code>add_task</code> and <code>remove_task</code> (todo/manage.py)</li>
+    <li><code>complete_task</code>, <code>filter_by_status</code> and <code>completion_percentage</code> (todo/status.py)</li>
+  </ul>
+
+  <h2>How to run</h2>
+  <pre>pip install -r requirements.txt
+python -m pytest</pre>
+</body>
+</html>
