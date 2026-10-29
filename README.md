@@ -9,4 +9,4 @@ Theme: To-Do List
 
 Project status: Features A and B finished, all tests passing.
 
-GitHub Pages: (add later)
+GitHub Pages: https://heretosee134.github.io/todo-list-project/
