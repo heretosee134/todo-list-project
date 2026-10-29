@@ -7,6 +7,6 @@ Theme: To-Do List
 | Kenza | heretosee134 | Feature A: add/remove tasks |
 | Iman | elisamyiman8-hub | Feature B: complete/filter/stats |
 
-Project status: Feature A (add and remove tasks) finished.
+Project status: Features A and B finished, all tests passing.
 
 GitHub Pages: (add later)
